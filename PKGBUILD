@@ -11,8 +11,10 @@ depends=('electron')
 makedepends=('git' 'npm')
 optdepends=('steam: achievement support'
             'steam-native-runtime: achievement support')
-_commit='1dbc2271574808d268ca01d184db2e29ff10d2a8'  # latest master
-source=("git+$url#commit=$_commit"
+# _commit='1dbc2271574808d268ca01d184db2e29ff10d2a8'  # latest master
+# source=("git+$url#commit=$_commit"
+#         "bitburner.desktop")
+source=("git+$url"
         "bitburner.desktop")
 sha256sums=('SKIP'
             '385174cee5da60bf403cfff6d44929df2639fb4097a159c9ba7eded690cdd288')
