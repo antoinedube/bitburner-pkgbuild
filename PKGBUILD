@@ -1,16 +1,17 @@
 # Maintainer: Konsonanz <maximilian.lehmann@protonmail.com>
+# Edited: Antoine Dubé
 pkgname=bitburner
 pkgver=2.1.0
 pkgrel=1
 pkgdesc="Bitburner is a programming-based incremental game"
 arch=('x86_64')
-url="https://github.com/danielyxie/bitburner"
+url="https://github.com/antoinedube/bitburner"
 license=('Apache')
 depends=('electron')
 makedepends=('git' 'npm')
 optdepends=('steam: achievement support'
             'steam-native-runtime: achievement support')
-_commit='2d9a12202f00c85583f95b39fa3755104cb4cc3d'  # latest master
+_commit='1dbc2271574808d268ca01d184db2e29ff10d2a8'  # latest master
 source=("git+$url#commit=$_commit"
         "bitburner.desktop")
 sha256sums=('SKIP'
